@@ -1,4 +1,4 @@
-# Whisper Kashmiri Speech-to-Text Model
+# Whisper Kashmiri Speech-to-Text
 
 This repository contains scripts for training and evaluating an Urdu speech-to-text model using OpenAI's Whisper.
 
