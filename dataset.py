@@ -7,8 +7,8 @@ from dataclasses import dataclass
 from typing import Any, Dict, List, Union
 import torch
 
-train_df = pd.read_csv('/content/drive/MyDrive/kashmiri_dataset/combined_csv_file.csv')
-val_df = pd.read_csv('/content/drive/MyDrive/kashmiri_dataset/combined_csv_valid.csv')
+train_df = pd.read_csv('/kashmiri_dataset/combined_csv_file.csv')
+val_df = pd.read_csv('/kashmiri_dataset/combined_csv_valid.csv')
 train_df = train_df.drop(columns=['start','end'],axis = 1)
 val_df = val_df.drop(columns=['start','end'],axis = 1)
 train_df = train_df.rename(columns={'filename_segment':'sentence'})
